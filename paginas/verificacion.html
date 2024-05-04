@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../css/diseño.css" />
-    <title>VerFar - Contacto</title>
+    <title>VerFar - Verificacion</title>
   </head>
   <body>
     <header>
@@ -14,7 +14,7 @@
     </header>
     <nav>
       <ul>
-        <li><a href="../home.html">Home</a></li>
+        <li><a href="../index.html">Home</a></li>
         <li><a href="./verificacion.html">Verificacion</a></li>
         <li><a href="./eslogans.html">Eslogans</a></li>
         <li><a href="./qs.html">Quienes Somos</a></li>
@@ -22,26 +22,26 @@
       </ul>
     </nav>
     <main>
-      <h2>CONSULTENOS</h2>
-      <form>
-        <label for="nombre"></label>
-        <input type="text" name="nombre" placeholder="Nombre" />
-        <label for="apellido"></label>
-        <input type="text" name="apellido" placeholder="Apellido" />
-        <label for="telefono"></label>
-        <input type="text" name="telefono" placeholder="Telefono" />
-        <label for="email"></label>
-        <input type="text" name="email" placeholder="Email" />
-        <label for="contacto"></label>
-        <textarea
-          name=""
-          cols="30"
-          rows="10"
-          placeholder="Consultenos"
-        ></textarea>
-        <br />
-        <input type="submit" name="verificar" value="Contacto" />
-      </form>
+      <h2>VERIFICACION</h2>
+      <div id="verificaR">
+        <img class="imgTres" src="../assets/IMG_4808.jpg" alt="">
+        <form action="">
+          <label for="gtin">GTIN (PC)</label>
+          <input type="text" name="gtin" placeholder="Ingresar GTIN aqui" />
+          <label for="serie">SERIE (SN)</label>
+          <input type="text" name="serie" placeholder="Ingresar Serie aqui" />
+          <label for="lote">VENCIMIENTO (EXP)</label>
+          <input type="text" name="lote" placeholder="Ingresar Lote aqui" />
+          <label for="vencimiento">LOTE (LOT)</label>
+          <input
+            type="text"
+            name="vencimiento"
+            placeholder="Ingresar Vencimiento aqui"
+          />
+          <br />
+          <input type="submit" name="verificar" value="Verificar" />
+        </form>
+      </div>
     </main>
     <footer>
       <p class="textoFooter">
